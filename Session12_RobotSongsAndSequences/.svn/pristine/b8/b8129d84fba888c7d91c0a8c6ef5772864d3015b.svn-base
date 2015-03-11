@@ -1,0 +1,41 @@
+"""
+This module lets you integrate:
+  -- SEQUENCES, and
+  -- ROBOT METHODS.
+
+Authors: David Mutchler, Chandan Rupakheti, Matt Boutell, Dave Fisher,
+         Claude Anderson, and PUT YOUR NAME HERE.  September 2013.
+"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+
+#-----------------------------------------------------------------------
+# TODO: 2. Implement a program that accomplishes the specification
+#   that is sketched in the attached    PlayItAgainSam_picture.pdf.
+#
+#   IMPORTANT:
+#     1. Implement using ITERATIVE ENHANCEMENT:
+#          -- Implement a bit and test that bit, getting it to work.
+#          -- Implement a bit more and test it, getting it to work.
+#          -- Etc until the entire program works corectly.
+#
+#     2. Put meaningful chunks of work into FUNCTIONS.
+#        Do NOT put the entire program (i.e., all the code) in main!
+#
+#     3. Write and use TEST FUNCTIONS as needed (but only as needed).
+#
+#     4. Include BRIEF but MEANINGFUL comments AS YOU WRITE THE CODE.
+#-----------------------------------------------------------------------
+
+import new_create
+import time
+import zellegraphics as zg
+
+
+def main():
+    """ Calls the other functions in this module, as needed. """
+
+#-----------------------------------------------------------------------
+# If this module is running at the top level (as opposed to being
+# imported by another module), then call the 'main' function.
+#-----------------------------------------------------------------------
+if __name__ == '__main__':
+    main()
